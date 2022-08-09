@@ -12,14 +12,14 @@ const CommonContact = ({ condition }) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_rugejlp",
+        "template_jatihpp",
         form.current,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "-UWxAxiRk9HT4KD-S"
       )
       .then(
         (result) => {
-          toast.success("Message Sent successfully!", {
+          toast.success("Message Sent Successfully!", {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -31,7 +31,7 @@ const CommonContact = ({ condition }) => {
           document.getElementById("myForm").reset();
         },
         (error) => {
-          toast.error("Ops Message not Sent!", {
+          toast.error("Oops Message Not Sent!", {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
