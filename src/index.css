@@ -29,3 +29,11 @@ html {
     @apply text-gray-lite dark:text-[#A6A6A6] hover:text-[#FA5252] transition duration-300 cursor-pointer;
   }
 }
+
+.cursive-font {
+  font-family: 'Inspiration', cursive;
+}
+
+.roboto-font {
+  font-family: 'Roboto Mono', monospace;
+}
