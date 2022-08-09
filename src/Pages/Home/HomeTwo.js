@@ -27,7 +27,19 @@ const HomeTwo = () => {
         >
           <div className="w-full flex justify-between  px-4">
             {/* website logo */}
-
+            <NavLink
+                  key="01"
+                  activeClassName=" text-[#FA5252]  hover:text-[#FA5252] "
+                  inactiveClassName=" dark:text-white dark:hover:text-[#FA5252]  hover:text-[#FA5252]  "
+                  className={"cursor-pointer  transition-colors duration-300 ease-in-out text-gray-lite flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center"}
+                  to={"/homeTwo"}
+                >
+                  <span className="mr-2 text-xl">
+                    <h1 href="/homeTwo/about" className="text-7xl font-bold  dark:text-white cursive-font">
+                      Sahar Babaeyan
+                    </h1>
+                  </span>
+                </NavLink>
             
             <div className="flex items-center">
               {/* dark and light mode button */}
