@@ -198,7 +198,7 @@ const CommonPortfilo = ({ condition, items }) => {
                   />
 
                   <div className=
-                  {(singleData.vid) !=="" ? 'player-wrapper overflow-hidden w-full md:h-[450px]  h-auto object-cover rounded-xl mt-6' : "hidden"}>
+                  {(singleData.vid) !=="" ? 'overflow-hidden w-full md:h-[450px]  h-auto object-cover rounded-xl mt-6' : "hidden"}>
                     <ReactPlayer
                       className='react-player'
                       url={singleData.vid}
