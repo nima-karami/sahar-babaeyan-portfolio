@@ -12,7 +12,7 @@ const CommonContact = ({ condition }) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_rugejlp",
+        "service_t35daxx",
         "template_jatihpp",
         form.current,
         "-UWxAxiRk9HT4KD-S"
@@ -55,11 +55,11 @@ const CommonContact = ({ condition }) => {
     >
       <h3 className="text-4xl  ">
         <span className="text-gray-lite dark:text-[#A6A6A6] ">
-          I'm always open to discussing product
+          I'm always open to discussing social media, 
         </span>
         <br />
         <span className="font-semibold dark:text-white">
-          design work or partnerships.
+          content creation or partnerships.
         </span>
       </h3>
 
