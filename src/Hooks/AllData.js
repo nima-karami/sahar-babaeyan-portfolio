@@ -43,12 +43,10 @@ import img6 from "../assets/images/slider/6.png";
 import img7 from "../assets/images/slider/7.png";
 import img8 from "../assets/images/slider/8.png";
 //  icon use as img here
-import icon from "../assets/images/icons/icon-1.svg";
-import icon1 from "../assets/images/icons/icon-2.svg";
-import icon2 from "../assets/images/icons/icon-3.svg";
-import icon3 from "../assets/images/icons/icon-4.svg";
-import icon4 from "../assets/images/icons/icon-5.svg";
-import icon5 from "../assets/images/icons/icon-6.svg";
+import instagramIcon from "../assets/images/icons/instagram-brands.svg";
+import chessIcon from "../assets/images/icons/chess-solid.svg";
+import shirtIcon from "../assets/images/icons/shirt-solid.svg";
+import photoFilmIcon from "../assets/images/icons/photo-film-solid.svg";
 // contact image
 import iconPhone from "../assets/images/contact/phone-call 1.png";
 import iconEmail from "../assets/images/contact/email 1.png";
@@ -439,7 +437,7 @@ const AllData = () => {
   const experienceArray = [
     {
       id: "1",
-      icon: icon,
+      icon: instagramIcon,
       title: "Social Media Management",
       des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
       color: "#D566FF",
@@ -447,15 +445,23 @@ const AllData = () => {
     },
     {
       id: "2",
-      icon: icon1,
-      title: "Content Creation",
+      icon: chessIcon,
+      title: "Brand Strategy",
       des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
       color: "#DDA10C",
       bg: "#FEFAF0",
     },
     {
       id: "3",
-      icon: icon2,
+      icon: photoFilmIcon,
+      title: "Content Creation",
+      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      color: "#8774FF",
+      bg: "#FCF4FF",
+    },
+    {
+      id: "4",
+      icon: shirtIcon,
       title: "Fashion Design",
       des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
       color: "#8774FF",

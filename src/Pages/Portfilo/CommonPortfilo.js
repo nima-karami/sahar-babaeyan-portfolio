@@ -71,35 +71,19 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
                 <li
                   className={`${
+                    test === "Graphic Design" ? "text-[#FA5252]" : "fillter-btn"
+                  } mr-4 md:mx-4`}
+                  onClick={() => handleSearch("Graphic Design")}
+                >
+                  Graphic Design
+                </li>
+                <li
+                  className={`${
                     test === "Video" ? "text-[#FA5252]" : "fillter-btn"
                   } mr-4 md:mx-4`}
                   onClick={() => handleSearch("Video")}
                 >
                   Video
-                </li>
-                <li
-                  className={`${
-                    test === "Web Design" ? "text-[#FA5252]" : "fillter-btn"
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Web Design")}
-                >
-                  Web Design
-                </li>
-                <li
-                  className={`${
-                    test === "Logo" ? "text-[#FA5252]" : "fillter-btn ml-0"
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Logo")}
-                >
-                  Logo
-                </li>
-                <li
-                  className={`${
-                    test === "UI/UX" ? "text-[#FA5252]" : "fillter-btn"
-                  }  `}
-                  onClick={() => handleSearch("UI/UX")}
-                >
-                  Graphic Design
                 </li>
               </ul>
 
