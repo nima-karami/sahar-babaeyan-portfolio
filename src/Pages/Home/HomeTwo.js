@@ -28,9 +28,7 @@ const HomeTwo = () => {
           <div className="w-full flex justify-between  px-4">
             {/* website logo */}
 
-            <Link to="/">
-              <img className="h-[26px] lg:h-[32px]" src={logo} alt="logo" />
-            </Link>
+            
             <div className="flex items-center">
               {/* dark and light mode button */}
 
