@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sahar-babaeyan-portfolio/static/css/main.10d86a1a.css",
-    "main.js": "/sahar-babaeyan-portfolio/static/js/main.2b54e0e8.js",
+    "main.css": "/sahar-babaeyan-portfolio/static/css/main.69f5a5cf.css",
+    "main.js": "/sahar-babaeyan-portfolio/static/js/main.c88e3379.js",
     "static/media/5.png": "/sahar-babaeyan-portfolio/static/media/5.5b8d47b8670ef005a096.png",
     "static/media/6.png": "/sahar-babaeyan-portfolio/static/media/6.88e7d240e35042d19ef9.png",
     "static/media/8.png": "/sahar-babaeyan-portfolio/static/media/8.ee2ea909e828aad0762e.png",
@@ -20,22 +20,20 @@
     "static/media/hometwodark.png": "/sahar-babaeyan-portfolio/static/media/hometwodark.021eee6411a934527f22.png",
     "static/media/1.png": "/sahar-babaeyan-portfolio/static/media/1.a57b3eb69763491a27d2.png",
     "static/media/logo-preview.png": "/sahar-babaeyan-portfolio/static/media/logo-preview.9eb7a358f3ade93b0b00.png",
-    "static/media/icon-5.svg": "/sahar-babaeyan-portfolio/static/media/icon-5.b7ce008f06241f1d51b48260af8b73f4.svg",
-    "static/media/icon-2.svg": "/sahar-babaeyan-portfolio/static/media/icon-2.cbff424c7b23532c3f955e6f747ee1fa.svg",
-    "static/media/icon-4.svg": "/sahar-babaeyan-portfolio/static/media/icon-4.6989ae67f415633aa2e1e3fd2e3c15a1.svg",
-    "static/media/icon-3.svg": "/sahar-babaeyan-portfolio/static/media/icon-3.c226edafbaa53ebea0decda25185b879.svg",
     "static/media/slick.svg": "/sahar-babaeyan-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/sahar-babaeyan-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/sahar-babaeyan-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/icon-6.svg": "/sahar-babaeyan-portfolio/static/media/icon-6.7a458dd3dce6df96d462489320d4a456.svg",
-    "static/media/icon-1.svg": "/sahar-babaeyan-portfolio/static/media/icon-1.71b741a6ab73765534e80db0a934febd.svg",
+    "static/media/chess-solid.svg": "/sahar-babaeyan-portfolio/static/media/chess-solid.bed6e34fa9c76d43d3b22ed611429c19.svg",
+    "static/media/photo-film-solid.svg": "/sahar-babaeyan-portfolio/static/media/photo-film-solid.99cd5e71b78598e2d896ea376aed81b8.svg",
     "static/media/slick.woff": "/sahar-babaeyan-portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/instagram-brands.svg": "/sahar-babaeyan-portfolio/static/media/instagram-brands.65a7cdea349fc8978609db0c5ac7e005.svg",
     "index.html": "/sahar-babaeyan-portfolio/index.html",
-    "main.10d86a1a.css.map": "/sahar-babaeyan-portfolio/static/css/main.10d86a1a.css.map",
-    "main.2b54e0e8.js.map": "/sahar-babaeyan-portfolio/static/js/main.2b54e0e8.js.map"
+    "static/media/shirt-solid.svg": "/sahar-babaeyan-portfolio/static/media/shirt-solid.6d8c6557d9fae228c9676f12a0ec592d.svg",
+    "main.69f5a5cf.css.map": "/sahar-babaeyan-portfolio/static/css/main.69f5a5cf.css.map",
+    "main.c88e3379.js.map": "/sahar-babaeyan-portfolio/static/js/main.c88e3379.js.map"
   },
   "entrypoints": [
-    "static/css/main.10d86a1a.css",
-    "static/js/main.2b54e0e8.js"
+    "static/css/main.69f5a5cf.css",
+    "static/js/main.c88e3379.js"
   ]
 }
