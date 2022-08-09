@@ -30,53 +30,10 @@ const HomeCard = () => {
             Social Media Manager
           </h3>
 
-          {/* Social Links */}
-
-          <div className="flex justify-center space-x-3">
-            {/* facebook link add here */}
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="socialbtn text-[#1773EA]">
-                <FaFacebookF />
-              </span>
-            </a>
-            {/* twitter link add here */}
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="socialbtn text-[#1C9CEA]">
-                <FaTwitter />
-              </span>
-            </a>
-            {/* drop link add here */}
-            <a
-              href="https://dribbble.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="socialbtn text-[#e14a84] ">
-                <FaDribbble />
-              </span>
-            </a>
-            {/* linkedin link add here */}
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="socialbtn text-[#0072b1]">
-                <FaLinkedinIn />
-              </span>
-            </a>
-          </div>
+          
 
           {/* personal information */}
-          <div className="p-7 rounded-2xl mt-7  bg-[#F3F6F6] dark:bg-[#1D1D1D]">
+          <div className="p-7 rounded-2xl mt-2  bg-[#F3F6F6] dark:bg-[#1D1D1D]">
             <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] pb-2.5">
               <span className="socialbtn bg-white dark:bg-black text-[#E93B81] shadow-md">
                 <FaMobileAlt />
