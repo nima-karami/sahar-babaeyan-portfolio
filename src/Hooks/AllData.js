@@ -1,7 +1,13 @@
 import { useEffect, useState } from "react";
 // for work_images
-import work1 from "../assets/images/work_images/1.jpg";
-import work2 from "../assets/images/work_images/2.jpg";
+import join_osl_img from "../assets/images/work_images/small/join-osl.jpeg";
+import lilly_lashes_img from "../assets/images/work_images/small/lilly-lashes.jpeg";
+import four_sigmatic_img from "../assets/images/work_images/small/four-sigmatic-april-fools.jpeg";
+import joon_hair_care_img from "../assets/images/work_images/small/joon-hair-care.jpeg";
+import hairtamin_scalp_serum_img from "../assets/images/work_images/small/hairtamin-scalp-serum.jpeg";
+import bathe_with_nature_img from "../assets/images/work_images/small/bathe-with-nature.jpeg";
+import chaladz_design_img from "../assets/images/work_images/small/chaladz-design.jpeg";
+
 import work3 from "../assets/images/work_images/3.jpg";
 import work4 from "../assets/images/work_images/4.jpg";
 import work5 from "../assets/images/work_images/5.jpg";
@@ -145,7 +151,7 @@ const AllData = () => {
       tag: "Content Creation",
       title: "OSL Hiring Campaign Video",
       img: "",
-      imgSmall: workSmall1,
+      imgSmall: join_osl_img,
       vid: "https://www.youtube.com/watch?v=04J9O16hfnk" ,
       bg: "#FFF0F0",
       client: "OSL",
@@ -160,7 +166,7 @@ const AllData = () => {
       tag: "Content Creation",
       title: "Lilly Lashes Product Video",
       img: "",
-      imgSmall: workSmall2,
+      imgSmall: lilly_lashes_img,
       vid: "https://www.youtube.com/watch?v=I4Pvta8F-Ss" ,
       bg: "#FFF3FC",
       client: "Lilly Lashes",
@@ -175,7 +181,7 @@ const AllData = () => {
       tag: "Content Creation",
       title: "Four Sigmatic April Fools",
       img: "",
-      imgSmall: workSmall3,
+      imgSmall: four_sigmatic_img,
       vid: "https://www.youtube.com/watch?v=OzWeA-L_MAU" ,
       bg: "#FFF0F0",
       client: "Freepik",
@@ -190,7 +196,7 @@ const AllData = () => {
       tag: "Content Creation",
       title: "Chaladz Design Promo",
       img: "",
-      imgSmall: workSmall4,
+      imgSmall: chaladz_design_img,
       vid: "https://youtu.be/nqVEUsFSs8I" ,
       bg: "#E9FAFF",
       client: "Chaladz Design",
@@ -205,7 +211,7 @@ const AllData = () => {
       tag: "Content Creation",
       title: "Hairtamin Scalp Serum Promo",
       img: "",
-      imgSmall: workSmall5,
+      imgSmall: hairtamin_scalp_serum_img,
       vid: "https://www.youtube.com/shorts/G49dckoPZww" ,
       bg: "#FFFAE9",
       client: "Hairtamin",
@@ -220,7 +226,7 @@ const AllData = () => {
       tag: "Content Creation",
       title: "Bathe With Nature",
       img: "",
-      imgSmall: "",
+      imgSmall: bathe_with_nature_img,
       vid: "https://youtu.be/C-NR08j0DEc" ,
       bg: "#F4F4FF",
       client: "Lavido",
@@ -235,7 +241,7 @@ const AllData = () => {
       tag: "Content Creation",
       title: "Joon Hair Care Promo",
       img: "",
-      imgSmall: workSmall7,
+      imgSmall: joon_hair_care_img,
       vid: "https://www.youtube.com/shorts/5vaWKIqp-yQ" ,
       bg: "#FFF0F8",
       client: "Joon",
