@@ -9,7 +9,7 @@ import {
   FaMobileAlt,
   FaTwitter,
 } from "react-icons/fa";
-import img from "../assets/images/about/avatar.jpg";
+import img from "../assets/images/about/Sahar.jpeg";
 import downloadIcon from "../assets/images/download.png";
 
 const HomeCard = () => {
@@ -24,10 +24,10 @@ const HomeCard = () => {
         {/* Social card */}
         <div className="pt-[100px] pb-8">
           <h1 className="mt-6 mb-1 text-5xl font-semibold  dark:text-white">
-            Monalisa Ashley
+            Sahar Babaeyan
           </h1>
           <h3 className="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6]  ">
-            Ui/Ux Designer
+            Social Media Manager
           </h3>
 
           {/* Social Links */}

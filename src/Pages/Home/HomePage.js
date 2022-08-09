@@ -25,7 +25,7 @@ const HomePage = () => {
           alt=""
         />
         <h3 className="mt-6 mb-1 text-5xl font-semibold dark:text-white">
-          Monalisa Ashley
+          Sahar Babaeyan
         </h3>
         <p className="mb-4 text-[#7B7B7B]">Ui/Ux Designer</p>
         {/* Avatar Info End */}
