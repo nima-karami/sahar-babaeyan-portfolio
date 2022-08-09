@@ -45,19 +45,19 @@ const ResumeTwo = () => {
 
               <div className="col-span-1">
                 <h4 className="text-5xl dark:text-white font-medium mb-8">
-                  Knowledges
+                  Tags
                 </h4>
 
-                {/* Knowledges items */}
+                {/* Knowledge items */}
 
                 <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
                   <button className="resume-btn">Digital Design</button>
                   <button className="resume-btn">Marketing</button>
                   <button className="resume-btn">Social Media</button>
-                  <button className="resume-btn">Print</button>
+                  <button className="resume-btn">Analytics</button>
                   <button className="resume-btn">Time Management</button>
-                  <button className="resume-btn">Flexibility</button>
-                  <button className="resume-btn">Print</button>
+                  <button className="resume-btn">Graphic Design</button>
+                  <button className="resume-btn">Brand Strategy</button>
                 </div>
               </div>
 
