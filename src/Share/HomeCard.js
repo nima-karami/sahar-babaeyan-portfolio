@@ -85,7 +85,7 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Phone
                 </p>
-                <p className="dark:text-white">+123 456 7890</p>
+                <p className="dark:text-white">+1 647-980-6785</p>
               </div>
             </div>
             <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
@@ -96,7 +96,18 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Email
                 </p>
-                <p className="dark:text-white">example@mail.com</p>
+                <p className="dark:text-white">sahar_babaeyan@yahoo.ca</p>
+              </div>
+            </div>
+            <div className="flex  py-2.5">
+              <span className="socialbtn bg-white dark:bg-black text-[#C17CEB] shadow-md">
+                <FaLinkedinIn />
+              </span>
+              <div className="text-left ml-2.5">
+                <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
+                  LinkedIn
+                </p>
+                <p className="dark:text-white">linkedin.com/in/sahar-b/</p>
               </div>
             </div>
             <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
@@ -107,20 +118,10 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Location
                 </p>
-                <p className="dark:text-white">Hong kong china</p>
+                <p className="dark:text-white">Toronto, Canada</p>
               </div>
             </div>
-            <div className="flex  py-2.5">
-              <span className="socialbtn bg-white dark:bg-black text-[#C17CEB] shadow-md">
-                <FaCalendarAlt />
-              </span>
-              <div className="text-left ml-2.5">
-                <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
-                  Birthday
-                </p>
-                <p className="dark:text-white">May 27, 1990</p>
-              </div>
-            </div>
+            
           </div>
           <button className="flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6">
             <img src={downloadIcon} alt="icon" className="mr-2" />
