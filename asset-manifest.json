@@ -1,16 +1,24 @@
 {
   "files": {
     "main.css": "/sahar-babaeyan-portfolio/static/css/main.10d86a1a.css",
-    "main.js": "/sahar-babaeyan-portfolio/static/js/main.a853933f.js",
+    "main.js": "/sahar-babaeyan-portfolio/static/js/main.2b54e0e8.js",
+    "static/media/5.png": "/sahar-babaeyan-portfolio/static/media/5.5b8d47b8670ef005a096.png",
+    "static/media/6.png": "/sahar-babaeyan-portfolio/static/media/6.88e7d240e35042d19ef9.png",
+    "static/media/8.png": "/sahar-babaeyan-portfolio/static/media/8.ee2ea909e828aad0762e.png",
+    "static/media/4.png": "/sahar-babaeyan-portfolio/static/media/4.7387d164abfe6eed22d6.png",
+    "static/media/3.png": "/sahar-babaeyan-portfolio/static/media/3.115ccf715f7555ff0e8f.png",
+    "static/media/2.png": "/sahar-babaeyan-portfolio/static/media/2.b655ac0406846d020d70.png",
     "static/media/bgtwo.jpg": "/sahar-babaeyan-portfolio/static/media/bgtwo.181487f3237d7ff109fa.jpg",
     "static/media/bg-dark.jpg": "/sahar-babaeyan-portfolio/static/media/bg-dark.22a21299a987d11c91c0.jpg",
     "static/media/bg.jpg": "/sahar-babaeyan-portfolio/static/media/bg.54122ef3ac6eced211d3.jpg",
+    "static/media/7.png": "/sahar-babaeyan-portfolio/static/media/7.e3e0579b6e9fd3f03897.png",
     "static/media/Sahar.jpeg": "/sahar-babaeyan-portfolio/static/media/Sahar.ed42625bf5acbcf79679.jpeg",
     "static/media/hometwolight.png": "/sahar-babaeyan-portfolio/static/media/hometwolight.05b2112aa2111293d420.png",
     "static/media/homeonelight.png": "/sahar-babaeyan-portfolio/static/media/homeonelight.dd0f6747ceb0b825bbb4.png",
     "static/media/homeonedark.png": "/sahar-babaeyan-portfolio/static/media/homeonedark.862249b714ce4db44ed5.png",
     "static/media/previewbg.png": "/sahar-babaeyan-portfolio/static/media/previewbg.300f33b46a224efadb0a.png",
     "static/media/hometwodark.png": "/sahar-babaeyan-portfolio/static/media/hometwodark.021eee6411a934527f22.png",
+    "static/media/1.png": "/sahar-babaeyan-portfolio/static/media/1.a57b3eb69763491a27d2.png",
     "static/media/logo-preview.png": "/sahar-babaeyan-portfolio/static/media/logo-preview.9eb7a358f3ade93b0b00.png",
     "static/media/icon-5.svg": "/sahar-babaeyan-portfolio/static/media/icon-5.b7ce008f06241f1d51b48260af8b73f4.svg",
     "static/media/icon-2.svg": "/sahar-babaeyan-portfolio/static/media/icon-2.cbff424c7b23532c3f955e6f747ee1fa.svg",
@@ -24,10 +32,10 @@
     "static/media/slick.woff": "/sahar-babaeyan-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sahar-babaeyan-portfolio/index.html",
     "main.10d86a1a.css.map": "/sahar-babaeyan-portfolio/static/css/main.10d86a1a.css.map",
-    "main.a853933f.js.map": "/sahar-babaeyan-portfolio/static/js/main.a853933f.js.map"
+    "main.2b54e0e8.js.map": "/sahar-babaeyan-portfolio/static/js/main.2b54e0e8.js.map"
   },
   "entrypoints": [
     "static/css/main.10d86a1a.css",
-    "static/js/main.a853933f.js"
+    "static/js/main.2b54e0e8.js"
   ]
 }
