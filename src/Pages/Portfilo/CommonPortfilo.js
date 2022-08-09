@@ -7,6 +7,7 @@ import { FiUser, FiCode, FiFilePlus, FiExternalLink } from "react-icons/fi";
 import { BsXCircle } from "react-icons/bs";
 import { useEffect } from "react";
 import PageTitle from "../../Share/PageTitle";
+import ReactPlayer from 'react-player';
 
 Modal.setAppElement("#root");
 
@@ -156,7 +157,7 @@ const CommonPortfilo = ({ condition, items }) => {
                       </p>
                       <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
                         <FiCode className="text-lg mr-2 hidden sm:block " />
-                        Langages :&nbsp;
+                        Tools :&nbsp;
                         <span className="font-medium ">
                           {singleData?.langages}
                         </span>
@@ -188,11 +189,24 @@ const CommonPortfilo = ({ condition, items }) => {
                   <p className="dark:text-white  text-2line font-normal text-[15px] sm:text-sm  ">
                     {singleData?.description}
                   </p>
+                  
                   <img
-                    className="w-full md:h-[450px]  h-auto object-cover rounded-xl mt-6"
+                    className=
+                    {(singleData.img) !=="" ? "w-full md:h-[450px]  h-auto object-cover rounded-xl mt-6" : "hidden"}
                     src={singleData.img}
                     alt=""
                   />
+
+                  <div className=
+                  {(singleData.vid) !=="" ? 'player-wrapper overflow-hidden w-full md:h-[450px]  h-auto object-cover rounded-xl mt-6' : "hidden"}>
+                    <ReactPlayer
+                      className='react-player'
+                      url={singleData.vid}
+                      width='100%'
+                      height='100%'
+                    />
+                  </div>
+
                 </div>
               </div>
             </Modal>

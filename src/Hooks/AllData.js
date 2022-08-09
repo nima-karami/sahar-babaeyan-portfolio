@@ -99,7 +99,7 @@ const AllData = () => {
       : document.documentElement.classList.remove("dark");
   };
 
-  // fillter portfilo data
+  // filter portfilo data
   const handleData = (text) => {
     if (text === "All") {
       setData(workItems);
@@ -144,8 +144,9 @@ const AllData = () => {
       id: "1",
       tag: "Content Creation",
       title: "OSL Hiring Campaign Video",
-      img: work1,
+      img: "",
       imgSmall: workSmall1,
+      vid: "https://www.youtube.com/watch?v=04J9O16hfnk" ,
       bg: "#FFF0F0",
       client: "OSL",
       tools: "Photoshop, Figma",
@@ -158,8 +159,9 @@ const AllData = () => {
       id: "2",
       tag: "Content Creation",
       title: "Lilly Lashes Product Video",
-      img: work2,
+      img: "",
       imgSmall: workSmall2,
+      vid: "https://www.youtube.com/watch?v=I4Pvta8F-Ss" ,
       bg: "#FFF3FC",
       client: "Lilly Lashes",
       tools: "HTML, CSS, Javascript",
@@ -172,8 +174,9 @@ const AllData = () => {
       id: "3",
       tag: "Content Creation",
       title: "Four Sigmatic April Fools",
-      img: work3,
+      img: "",
       imgSmall: workSmall3,
+      vid: "https://www.youtube.com/watch?v=OzWeA-L_MAU" ,
       bg: "#FFF0F0",
       client: "Freepik",
       tools: "Illustrator",
@@ -186,8 +189,9 @@ const AllData = () => {
       id: "4",
       tag: "Content Creation",
       title: "Chaladz Design Promo",
-      img: work4,
+      img: "",
       imgSmall: workSmall4,
+      vid: "https://youtu.be/nqVEUsFSs8I" ,
       bg: "#E9FAFF",
       client: "Chaladz Design",
       tools: "After Effect",
@@ -200,8 +204,9 @@ const AllData = () => {
       id: "5",
       tag: "Content Creation",
       title: "Hairtamin Scalp Serum Promo",
-      img: work5,
+      img: "",
       imgSmall: workSmall5,
+      vid: "https://www.youtube.com/shorts/G49dckoPZww" ,
       bg: "#FFFAE9",
       client: "Hairtamin",
       tools: "Photoshop",
@@ -214,8 +219,9 @@ const AllData = () => {
       id: "6",
       tag: "Content Creation",
       title: "Bathe With Nature",
-      img: work6,
-      imgSmall: workSmall6,
+      img: "",
+      imgSmall: "",
+      vid: "https://youtu.be/C-NR08j0DEc" ,
       bg: "#F4F4FF",
       client: "Lavido",
       tools: "Vimeo",
@@ -227,45 +233,19 @@ const AllData = () => {
     {
       id: "7",
       tag: "Content Creation",
-      title: "OSL Pride Campaign Video",
-      img: work7,
+      title: "Joon Hair Care Promo",
+      img: "",
       imgSmall: workSmall7,
+      vid: "https://www.youtube.com/shorts/5vaWKIqp-yQ" ,
       bg: "#FFF0F8",
-      client: "OSL",
+      client: "Joon",
       tools: "Photoshop",
       link: "https://www.envato.com",
       linkText: "www.envato.com",
       description:
-        "This campaign was made in celebration of Pride 2022. Employees were invited to a zoom chat where various questions were asked. The footage was then taken to create a kick-off video for Pride month.",
+        "product video produced to introduce Joon Hair Care on social media",
     },
-    {
-      id: "8",
-      tag: "Web Design",
-      title: "Chul urina",
-      img: work8,
-      imgSmall: workSmall8,
-      bg: "#FFF0F8",
-      client: "Envato",
-      tools: "HTML, CSS, Javascript",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
-    {
-      id: "9",
-      tag: "Logo",
-      title: "Chul urina",
-      img: work9,
-      imgSmall: workSmall9,
-      bg: "#FCF4FF",
-      client: "Feepik",
-      tools: "Figma",
-      link: "https://www.freepik.com/free-photos-vectors/market-logo",
-      linkText: "www.freepik.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
+    
   ];
   const [data, setData] = useState(workItems);
 
