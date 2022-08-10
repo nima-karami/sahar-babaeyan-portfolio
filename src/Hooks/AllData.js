@@ -435,7 +435,7 @@ const AllData = () => {
       title: "Brand Strategy",
       des: "The best brand strategy services help you create a unique and differentiated brand that will drive business success. I can understand your customers, competitors, and industry to develop a brand strategy that will make you stand out and achieve your desired results.",
       color: "#DDA10C",
-      bg: "#FEFAF0",
+      bg: "#FCF4FF",
     },
     {
       id: "3",
@@ -471,8 +471,6 @@ const AllData = () => {
       title1: "B.Sc. in Criminology ",
       place1: "Simon Fraser University, Toronto, CA",
       bg1: "#FFF4F4",
-
-
     },
     {
       type: "Experience",
@@ -487,34 +485,13 @@ const AllData = () => {
       date1: "2016-Present",
       title1: "Founder & Creative Director",
       place1: "Chaladz Design",
-      bg1: "#F2F4FF",
+      bg1: "#f1f7fb",
 
       id2: "06",
       date2: "2013-2019",
       title2: "Social Media Manager",
       place2: "Gap Inc.",
-      bg2: "#EEF5FA",
-    },
-    {
-      type: "Awards",
-      icon: FaAward,
-      id: "07",
-      date: "2015-2017",
-      title: "  Graphic Designer",
-      place: "Web Graphy, Los Angeles, CA",
-      bg: "#FCF4FF",
-
-      id1: "08",
-      date1: "2014 - 2015",
-      title1: "Jr. Web Developer",
-      place1: "Creative Gigs.",
-      bg1: "#FCF9F2",
-
-      id2: "09",
-      date2: "2015-2017",
-      title2: "Best Freelancer",
-      place2: "Fiver & Upwork Level 2 & Top Rated",
-      bg2: "#FCF4FF",
+      bg2: "#f6fafc",
     },
   ];
 
@@ -530,7 +507,7 @@ const AllData = () => {
       id: "02",
       color: "#9272D4",
       name: "Analytics",
-      number: "100",
+      number: "90",
     },
     {
       id: "03",
@@ -542,7 +519,7 @@ const AllData = () => {
       id: "03",
       color: "#CA56F2",
       name: "Digital Advertising",
-      number: "100",
+      number: "80",
     },
     {
       id: "04",

@@ -36,8 +36,8 @@ module.exports = {
 
     extend: {
       backgroundImage: {
-        homeBg: "url('/src/assets/images/background/bg.jpg')",
-        "homeBg-dark": "url('/src/assets/images/background/bg-dark.jpg')",
+        homeBg: "url('/src/assets/images/background/modern-bg.jpg')",
+        "homeBg-dark": "url('/src/assets/images/background/bgtwo.jpg')",
         "homeTwoBg-dark": "url('/src/assets/images/background/bgtwo.jpg')",
         previewBg: "url('/src/assets/images/preview/previewbg.png')",
       },
@@ -70,6 +70,7 @@ module.exports = {
         "color-970": "#1C1C1C",
         "color-980": "#0D0D0D",
         "color-990": "#212425",
+        "pink-lite": "#FCF4FF",
       },
       boxShadow: {
         icon: "0 4px 6px 0px rgba(0, 0, 0, 0.08)",
