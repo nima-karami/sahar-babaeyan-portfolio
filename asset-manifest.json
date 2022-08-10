@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/sahar-babaeyan-portfolio/static/css/main.69f5a5cf.css",
-    "main.js": "/sahar-babaeyan-portfolio/static/js/main.2b2aa11b.js",
+    "main.css": "/sahar-babaeyan-portfolio/static/css/main.85744b75.css",
+    "main.js": "/sahar-babaeyan-portfolio/static/js/main.bc92fb28.js",
+    "static/media/modern-bg.jpg": "/sahar-babaeyan-portfolio/static/media/modern-bg.fbc79546c7b538bde4c0.jpg",
     "static/media/5.png": "/sahar-babaeyan-portfolio/static/media/5.5b8d47b8670ef005a096.png",
     "static/media/6.png": "/sahar-babaeyan-portfolio/static/media/6.88e7d240e35042d19ef9.png",
     "static/media/8.png": "/sahar-babaeyan-portfolio/static/media/8.ee2ea909e828aad0762e.png",
@@ -9,8 +10,6 @@
     "static/media/3.png": "/sahar-babaeyan-portfolio/static/media/3.115ccf715f7555ff0e8f.png",
     "static/media/2.png": "/sahar-babaeyan-portfolio/static/media/2.b655ac0406846d020d70.png",
     "static/media/bgtwo.jpg": "/sahar-babaeyan-portfolio/static/media/bgtwo.181487f3237d7ff109fa.jpg",
-    "static/media/bg-dark.jpg": "/sahar-babaeyan-portfolio/static/media/bg-dark.22a21299a987d11c91c0.jpg",
-    "static/media/bg.jpg": "/sahar-babaeyan-portfolio/static/media/bg.54122ef3ac6eced211d3.jpg",
     "static/media/7.png": "/sahar-babaeyan-portfolio/static/media/7.e3e0579b6e9fd3f03897.png",
     "static/media/Sahar.jpeg": "/sahar-babaeyan-portfolio/static/media/Sahar.ed42625bf5acbcf79679.jpeg",
     "static/media/hometwolight.png": "/sahar-babaeyan-portfolio/static/media/hometwolight.05b2112aa2111293d420.png",
@@ -18,13 +17,13 @@
     "static/media/homeonedark.png": "/sahar-babaeyan-portfolio/static/media/homeonedark.862249b714ce4db44ed5.png",
     "static/media/previewbg.png": "/sahar-babaeyan-portfolio/static/media/previewbg.300f33b46a224efadb0a.png",
     "static/media/hometwodark.png": "/sahar-babaeyan-portfolio/static/media/hometwodark.021eee6411a934527f22.png",
-    "static/media/bathe-with-nature.jpeg": "/sahar-babaeyan-portfolio/static/media/bathe-with-nature.325fbe1562ad7c4c81a4.jpeg",
+    "static/media/bathe-with-nature.jpeg": "/sahar-babaeyan-portfolio/static/media/bathe-with-nature.5991449f39eb54e02818.jpeg",
     "static/media/1.png": "/sahar-babaeyan-portfolio/static/media/1.a57b3eb69763491a27d2.png",
-    "static/media/chaladz-design.jpeg": "/sahar-babaeyan-portfolio/static/media/chaladz-design.14a42f91a5664b0c6a59.jpeg",
+    "static/media/chaladz-design.jpeg": "/sahar-babaeyan-portfolio/static/media/chaladz-design.81e4d3bb1adfd10f8077.jpeg",
     "static/media/joon-hair-care.jpeg": "/sahar-babaeyan-portfolio/static/media/joon-hair-care.d5998f54eaedc103965a.jpeg",
     "static/media/lilly-lashes.jpeg": "/sahar-babaeyan-portfolio/static/media/lilly-lashes.3d6278aa2609031613f6.jpeg",
+    "static/media/join-osl.jpeg": "/sahar-babaeyan-portfolio/static/media/join-osl.a691cf405485fb457aa3.jpeg",
     "static/media/hairtamin-scalp-serum.jpeg": "/sahar-babaeyan-portfolio/static/media/hairtamin-scalp-serum.530cf8742ff1a982eed0.jpeg",
-    "static/media/join-osl.jpeg": "/sahar-babaeyan-portfolio/static/media/join-osl.352c2324013fa9fdbb0d.jpeg",
     "static/media/logo-preview.png": "/sahar-babaeyan-portfolio/static/media/logo-preview.9eb7a358f3ade93b0b00.png",
     "static/media/slick.svg": "/sahar-babaeyan-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/sahar-babaeyan-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -35,11 +34,11 @@
     "static/media/instagram-brands.svg": "/sahar-babaeyan-portfolio/static/media/instagram-brands.65a7cdea349fc8978609db0c5ac7e005.svg",
     "index.html": "/sahar-babaeyan-portfolio/index.html",
     "static/media/shirt-solid.svg": "/sahar-babaeyan-portfolio/static/media/shirt-solid.6d8c6557d9fae228c9676f12a0ec592d.svg",
-    "main.69f5a5cf.css.map": "/sahar-babaeyan-portfolio/static/css/main.69f5a5cf.css.map",
-    "main.2b2aa11b.js.map": "/sahar-babaeyan-portfolio/static/js/main.2b2aa11b.js.map"
+    "main.85744b75.css.map": "/sahar-babaeyan-portfolio/static/css/main.85744b75.css.map",
+    "main.bc92fb28.js.map": "/sahar-babaeyan-portfolio/static/js/main.bc92fb28.js.map"
   },
   "entrypoints": [
-    "static/css/main.69f5a5cf.css",
-    "static/js/main.2b2aa11b.js"
+    "static/css/main.85744b75.css",
+    "static/js/main.bc92fb28.js"
   ]
 }
