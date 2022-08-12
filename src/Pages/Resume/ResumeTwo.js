@@ -6,7 +6,7 @@ import LineItem from "./LineItem";
 import ResumeCard from "./ResumeCard";
 
 const ResumeTwo = () => {
-  const { lineArray, resumeArray } = UseData();
+  const { lineArray, educationArray, experienceArray } = UseData();
   return (
     <>
       <PageTitle title="Resume"></PageTitle>
@@ -21,9 +21,12 @@ const ResumeTwo = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-6 gap-y-6 mt-[30px]">
                 {/* resume items map */}
 
-                {resumeArray.slice(0, 2).map((item, i) => (
-                  <ResumeCard item={item} key={i} />
-                ))}
+                {/* {educationArray.array.map((item, i) => (
+                  <ResumeCard icon={educationArray.icon} type={educationArray.type} item={item} key={i} />
+                ))} */}
+
+                <ResumeCard arrayObject = {educationArray} />
+                <ResumeCard arrayObject = {experienceArray} />
               </div>
             </div>
           </div>

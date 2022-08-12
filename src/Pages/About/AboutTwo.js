@@ -8,7 +8,7 @@ import HomeCard from "../../Share/HomeCard";
 import PageTitle from "../../Share/PageTitle";
 
 const AboutTwo = () => {
-  const { local, experienceArray } = UseData();
+  const { local, professionalTitlesArray } = UseData();
 
   return (
     <section>
@@ -64,7 +64,7 @@ const AboutTwo = () => {
             <div className="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2 ">
               {/* Experience information  */}
 
-              {experienceArray.map((item) => (
+              {professionalTitlesArray.map((item) => (
                 <AboutCard key={Math.random()} item={item} local={local} />
               ))}
             </div>

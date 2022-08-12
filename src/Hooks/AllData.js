@@ -419,8 +419,8 @@ const AllData = () => {
     img8,
   ];
 
-  // experience items for about page
-  const experienceArray = [
+  // what i do items for about page
+  const professionalTitlesArray = [
     {
       id: "1",
       icon: instagramIcon,
@@ -456,44 +456,52 @@ const AllData = () => {
   ];
 
   // Resume items for Resume page
-  const resumeArray = [
+  const educationArray = 
     {
       type: "Education",
       icon: MdOutlineSchool,
-      id: "01",
-      date: "2020",
-      title: "Advanced Google Analytics Certification",
-      place: "Google Inc.",
-      bg: "#FFF1FB",
-      
-      id1: "02",
-      date1: "2008-2012",
-      title1: "B.Sc. in Criminology ",
-      place1: "Simon Fraser University, Toronto, CA",
-      bg1: "#FFF1FB",
-    },
-    {
+      array: [
+        {
+          id: "01",
+          date: "2020",
+          title: "Advanced Google Analytics Certification",
+          place: "Google Inc.",
+          bg: "#FFF1FB",
+        },
+        {
+          id: "02",
+          date: "2008-2012",
+          title: "B.Sc. in Criminology ",
+          place: "Simon Fraser University, Toronto, CA",
+          bg: "#FFF1FB",
+        }]
+    }
+    
+    const experienceArray = {
       type: "Experience",
       icon: MdOutlineBusinessCenter,
-      id: "04",
-      date: "2017-Present",
-      title: "Digital Marketing Manager",
-      place: "Patch Design",
-      bg: "#EEF5FA",
-
-      id1: "05",
-      date1: "2016-Present",
-      title1: "Founder & Creative Director",
-      place1: "Chaladz Design",
-      bg1: "#EEF5FA",
-
-      id2: "06",
-      date2: "2013-2019",
-      title2: "Social Media Manager",
-      place2: "Gap Inc.",
-      bg2: "#EEF5FA",
-    },
-  ];
+      array: [{
+          id: "04",
+          date: "2017-Present",
+          title: "Digital Marketing Manager",
+          place: "Patch Design",
+          bg: "#EEF5FA",
+        },
+        {
+          id: "05",
+          date: "2016-Present",
+          title: "Founder & Creative Director",
+          place: "Chaladz Design",
+          bg: "#EEF5FA",
+        },
+        {
+          id: "06",
+          date: "2013-2019",
+          title: "Social Media Manager",
+          place: "Gap Inc.",
+          bg: "#EEF5FA",
+        }]
+    }
 
   // Working Skills items for Resume page
   const lineArray = [
@@ -572,9 +580,10 @@ const AllData = () => {
     menuItem,
     NavLink,
     menuItemTwo,
-    experienceArray,
+    professionalTitlesArray,
     sliderImg,
-    resumeArray,
+    educationArray,
+    experienceArray,
     lineArray,
     contactArray,
   };
