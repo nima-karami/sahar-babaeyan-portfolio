@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sahar-babaeyan-portfolio/static/css/main.85744b75.css",
-    "main.js": "/sahar-babaeyan-portfolio/static/js/main.bc92fb28.js",
+    "main.js": "/sahar-babaeyan-portfolio/static/js/main.ee80939b.js",
     "static/media/modern-bg.jpg": "/sahar-babaeyan-portfolio/static/media/modern-bg.fbc79546c7b538bde4c0.jpg",
     "static/media/5.png": "/sahar-babaeyan-portfolio/static/media/5.5b8d47b8670ef005a096.png",
     "static/media/6.png": "/sahar-babaeyan-portfolio/static/media/6.88e7d240e35042d19ef9.png",
@@ -35,10 +35,10 @@
     "index.html": "/sahar-babaeyan-portfolio/index.html",
     "static/media/shirt-solid.svg": "/sahar-babaeyan-portfolio/static/media/shirt-solid.6d8c6557d9fae228c9676f12a0ec592d.svg",
     "main.85744b75.css.map": "/sahar-babaeyan-portfolio/static/css/main.85744b75.css.map",
-    "main.bc92fb28.js.map": "/sahar-babaeyan-portfolio/static/js/main.bc92fb28.js.map"
+    "main.ee80939b.js.map": "/sahar-babaeyan-portfolio/static/js/main.ee80939b.js.map"
   },
   "entrypoints": [
     "static/css/main.85744b75.css",
-    "static/js/main.bc92fb28.js"
+    "static/js/main.ee80939b.js"
   ]
 }
