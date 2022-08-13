@@ -6,7 +6,7 @@ import LineItem from "./LineItem";
 import ResumeCard from "./ResumeCard";
 
 const ResumeTwo = () => {
-  const { lineArray, educationArray, experienceArray } = UseData();
+  const { lineArray, educationArray, experienceArray, local } = UseData();
   return (
     <>
       <PageTitle title="Resume"></PageTitle>
@@ -25,8 +25,8 @@ const ResumeTwo = () => {
                   <ResumeCard icon={educationArray.icon} type={educationArray.type} item={item} key={i} />
                 ))} */}
 
-                <ResumeCard arrayObject = {educationArray} />
-                <ResumeCard arrayObject = {experienceArray} />
+                <ResumeCard arrayObject = {educationArray} local = {local} />
+                <ResumeCard arrayObject = {experienceArray} local = {local} />
               </div>
             </div>
           </div>
