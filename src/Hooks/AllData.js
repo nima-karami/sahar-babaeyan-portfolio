@@ -7,24 +7,12 @@ import joon_hair_care_img from "../assets/images/work_images/small/joon-hair-car
 import hairtamin_scalp_serum_img from "../assets/images/work_images/small/hairtamin-scalp-serum.jpeg";
 import bathe_with_nature_img from "../assets/images/work_images/small/bathe-with-nature.jpeg";
 import chaladz_design_img from "../assets/images/work_images/small/chaladz-design.jpeg";
+import lavido_beauty_social_img from "../assets/images/work_images/small/lavido-beauty-social.jpeg";
+import osl_social_img from "../assets/images/work_images/small/osl-social.jpeg";
+import four_sigmatic_social_img from "../assets/images/work_images/small/four-sigmatic-social.jpeg";
 
-import work3 from "../assets/images/work_images/3.jpg";
-import work4 from "../assets/images/work_images/4.jpg";
-import work5 from "../assets/images/work_images/5.jpg";
-import work6 from "../assets/images/work_images/6.jpg";
-import work7 from "../assets/images/work_images/7.jpg";
-import work8 from "../assets/images/work_images/8.jpg";
-import work9 from "../assets/images/work_images/9.jpg";
 // works small images
-import workSmall1 from "../assets/images/work_images/small/1.jpg";
-import workSmall2 from "../assets/images/work_images/small/2.jpg";
-import workSmall3 from "../assets/images/work_images/small/3.jpg";
-import workSmall4 from "../assets/images/work_images/small/4.jpg";
-import workSmall5 from "../assets/images/work_images/small/5.jpg";
-import workSmall6 from "../assets/images/work_images/small/6.jpg";
-import workSmall7 from "../assets/images/work_images/small/7.jpg";
-import workSmall8 from "../assets/images/work_images/small/8.jpg";
-import workSmall9 from "../assets/images/work_images/small/9.jpg";
+
 // blog post images
 import blog6 from "../assets/images/blog_images/6.jpg";
 import blog4 from "../assets/images/blog_images/4.jpg";
@@ -162,6 +150,36 @@ const AllData = () => {
         "Video was created for OSL's quarterly hiring campaign. The strategy was to incorporate the logo into the brand messaging itself. With a successful paid advertising campaign, the company was able to double their applications in Q1.",
     },
     {
+      id: "8",
+      tag: "Graphic Design",
+      title: "Lavido Beauty Social Media",
+      img: lavido_beauty_social_img,
+      imgSmall: lavido_beauty_social_img,
+      vid: "" ,
+      bg: "#FFF1FB",
+      client: "Lavido Beauty",
+      tools: "Canva, Photoshop",
+      link: "https://www.envato.com",
+      linkText: "www.envato.com",
+      description:
+        "Created a social media brand presence for this client that was modern, professional, and integrated their existing brand aesthetics. I developed a content strategy and calendar that would post engaging content daily, as well as create graphics and videos as needed. This strategy also included content marketing, paid advertising, and organic growth.",
+    },
+    {
+      id: "10",
+      tag: "Graphic Design",
+      title: "Four Sigmatic Social Media",
+      img: four_sigmatic_social_img,
+      imgSmall: four_sigmatic_social_img,
+      vid: "" ,
+      bg: "#FFF1FB",
+      client: "Four Sigmatic",
+      tools: "Canva, Photoshop",
+      link: "https://www.envato.com",
+      linkText: "www.envato.com",
+      description:
+        "I worked with Four Sigmatic to help them create social media content that would resonate with their audience. I came up with concepts and copy for posts that would show off the brand's personality and highlight their products. I also worked with influencers and bloggers to get the word out about Four Sigmatic. In the end, we created a social media campaign that was successful in driving traffic and engagement.",
+    },
+    {
       id: "2",
       tag: "Content Creation",
       title: "Lilly Lashes Product Video",
@@ -222,6 +240,21 @@ const AllData = () => {
         "Shot, designed and edited by me for hairtamin's annual 12 days of giving campaign.",
     },
     {
+      id: "9",
+      tag: "Graphic Design",
+      title: "OSL Social Media",
+      img: osl_social_img,
+      imgSmall: osl_social_img,
+      vid: "" ,
+      bg: "#FFF1FB",
+      client: "OSL",
+      tools: "Canva, Photoshop",
+      link: "https://www.envato.com",
+      linkText: "www.envato.com",
+      description:
+        "For OSL I was responsible for creating content, managing the brand’s social media accounts, and engaging with their employee focused community. I created a strong visual presence for the brand and helped grow its following. I also implemented successful paid marketing campaigns that generated interest, new applicants and awareness.",
+    },
+    {
       id: "6",
       tag: "Content Creation",
       title: "Bathe With Nature",
@@ -250,7 +283,7 @@ const AllData = () => {
       linkText: "www.envato.com",
       description:
         "product video produced to introduce Joon Hair Care on social media",
-    },
+    },    
     
   ];
   const [data, setData] = useState(workItems);

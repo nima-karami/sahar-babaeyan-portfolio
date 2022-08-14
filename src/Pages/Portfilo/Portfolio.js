@@ -4,7 +4,7 @@ import CommonPortfilo from "./CommonPortfilo";
 const Portfolio = () => {
   return (
     <div>
-      <CommonPortfilo items={8} condition={false} />
+      <CommonPortfilo items={10} condition={false} />
     </div>
   );
 };

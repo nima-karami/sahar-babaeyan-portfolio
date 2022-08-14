@@ -3,7 +3,7 @@ import Footer from "../../Share/Footer";
 import UseData from "../../Hooks/UseData";
 import { BsXCircle } from "react-icons/bs";
 import Modal from "react-modal";
-import user from "../../assets/images/about/about.jpg";
+import user from "../../assets/images/about/Sahar.jpeg";
 import {
   FaDribbble,
   FaFacebookF,

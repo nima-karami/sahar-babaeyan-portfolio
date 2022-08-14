@@ -64,7 +64,7 @@ const Home = () => {
               {!menuOpen ? (
                 <span
                   onClick={() => setMenuOpen(!menuOpen)}
-                  className="lg:hidden   bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center items-center text-white dark:text-white text-3xl ml-3 "
+                  className="lg:hidden cursor-pointer  bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center items-center text-white dark:text-white text-3xl ml-3 "
                 >
                   <AiOutlineMenu />
                 </span>
