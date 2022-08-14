@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/sahar-babaeyan-portfolio/static/css/main.4403baca.css",
-    "main.js": "/sahar-babaeyan-portfolio/static/js/main.df6adf81.js",
+    "main.css": "/sahar-babaeyan-portfolio/static/css/main.dd8ed57e.css",
+    "main.js": "/sahar-babaeyan-portfolio/static/js/main.16813c53.js",
     "static/media/modern-bg.jpg": "/sahar-babaeyan-portfolio/static/media/modern-bg.fbc79546c7b538bde4c0.jpg",
+    "static/media/mushroom-101.jpeg": "/sahar-babaeyan-portfolio/static/media/mushroom-101.a3d6625536dbc9de8558.jpeg",
     "static/media/5.png": "/sahar-babaeyan-portfolio/static/media/5.5b8d47b8670ef005a096.png",
     "static/media/6.png": "/sahar-babaeyan-portfolio/static/media/6.88e7d240e35042d19ef9.png",
     "static/media/8.png": "/sahar-babaeyan-portfolio/static/media/8.ee2ea909e828aad0762e.png",
     "static/media/4.png": "/sahar-babaeyan-portfolio/static/media/4.7387d164abfe6eed22d6.png",
+    "static/media/four-sigmatic-social.jpeg": "/sahar-babaeyan-portfolio/static/media/four-sigmatic-social.efdfe691165d62b44440.jpeg",
     "static/media/3.png": "/sahar-babaeyan-portfolio/static/media/3.115ccf715f7555ff0e8f.png",
+    "static/media/raw-elements-social.jpeg": "/sahar-babaeyan-portfolio/static/media/raw-elements-social.00ec7bb74bfc4829194a.jpeg",
+    "static/media/osl-social.jpeg": "/sahar-babaeyan-portfolio/static/media/osl-social.766bdd17610a0f5cc6e3.jpeg",
+    "static/media/lavido-beauty-social.jpeg": "/sahar-babaeyan-portfolio/static/media/lavido-beauty-social.4249ad59de774b673717.jpeg",
     "static/media/2.png": "/sahar-babaeyan-portfolio/static/media/2.b655ac0406846d020d70.png",
+    "static/media/hormones.jpeg": "/sahar-babaeyan-portfolio/static/media/hormones.915d320ebafae46e0b7b.jpeg",
+    "static/media/retail.jpeg": "/sahar-babaeyan-portfolio/static/media/retail.2a0290f1f90a9dd9b7bb.jpeg",
     "static/media/bgtwo.jpg": "/sahar-babaeyan-portfolio/static/media/bgtwo.181487f3237d7ff109fa.jpg",
+    "static/media/functional-coffee.jpeg": "/sahar-babaeyan-portfolio/static/media/functional-coffee.5a7c62eda98db7133812.jpeg",
+    "static/media/android-apple.jpeg": "/sahar-babaeyan-portfolio/static/media/android-apple.39865d0548058d24a322.jpeg",
     "static/media/7.png": "/sahar-babaeyan-portfolio/static/media/7.e3e0579b6e9fd3f03897.png",
     "static/media/Sahar.jpeg": "/sahar-babaeyan-portfolio/static/media/Sahar.ed42625bf5acbcf79679.jpeg",
-    "static/media/previewbg.png": "/sahar-babaeyan-portfolio/static/media/previewbg.300f33b46a224efadb0a.png",
     "static/media/bathe-with-nature.jpeg": "/sahar-babaeyan-portfolio/static/media/bathe-with-nature.5991449f39eb54e02818.jpeg",
     "static/media/1.png": "/sahar-babaeyan-portfolio/static/media/1.a57b3eb69763491a27d2.png",
     "static/media/chaladz-design.jpeg": "/sahar-babaeyan-portfolio/static/media/chaladz-design.81e4d3bb1adfd10f8077.jpeg",
@@ -25,11 +33,11 @@
     "static/media/instagram-brands.svg": "/sahar-babaeyan-portfolio/static/media/instagram-brands.65a7cdea349fc8978609db0c5ac7e005.svg",
     "index.html": "/sahar-babaeyan-portfolio/index.html",
     "static/media/shirt-solid.svg": "/sahar-babaeyan-portfolio/static/media/shirt-solid.6d8c6557d9fae228c9676f12a0ec592d.svg",
-    "main.4403baca.css.map": "/sahar-babaeyan-portfolio/static/css/main.4403baca.css.map",
-    "main.df6adf81.js.map": "/sahar-babaeyan-portfolio/static/js/main.df6adf81.js.map"
+    "main.dd8ed57e.css.map": "/sahar-babaeyan-portfolio/static/css/main.dd8ed57e.css.map",
+    "main.16813c53.js.map": "/sahar-babaeyan-portfolio/static/js/main.16813c53.js.map"
   },
   "entrypoints": [
-    "static/css/main.4403baca.css",
-    "static/js/main.df6adf81.js"
+    "static/css/main.dd8ed57e.css",
+    "static/js/main.16813c53.js"
   ]
 }
