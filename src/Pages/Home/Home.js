@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FiMoon, FiSun } from "react-icons/fi";
-import { Link, Outlet, useLocation } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import UseData from "../../Hooks/UseData";
-import logo from "../../assets/images/logo/logo.png";
 import Header from "../../Share/Header";
 import HomeCard from "../../Share/HomeCard";
 import PageTitle from "../../Share/PageTitle";
@@ -29,13 +28,13 @@ const Home = () => {
             {/* website logo */}
             <NavLink
                   key="01"
-                  activeClassName=" text-[#FA5252]  hover:text-[#FA5252] "
+                  activeClassName=" dark:text-white hover:text-[#FA5252] dark:hover:text-[#FA5252]"
                   inactiveClassName=" dark:text-white dark:hover:text-[#FA5252]  hover:text-[#FA5252]  "
                   className={"cursor-pointer  transition-colors duration-300 ease-in-out text-gray-lite flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center"}
                   to={"/"}
                 >
                   <span className="mr-2 text-xl">
-                    <h1 className="text-7xl font-bold  dark:text-white cursive-font">
+                    <h1 className="text-7xl font-bold cursive-font">
                       Sahar Babaeyan
                     </h1>
                   </span>
