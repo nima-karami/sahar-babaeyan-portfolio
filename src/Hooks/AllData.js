@@ -10,23 +10,15 @@ import chaladz_design_img from "../assets/images/work_images/small/chaladz-desig
 import lavido_beauty_social_img from "../assets/images/work_images/small/lavido-beauty-social.jpeg";
 import osl_social_img from "../assets/images/work_images/small/osl-social.jpeg";
 import four_sigmatic_social_img from "../assets/images/work_images/small/four-sigmatic-social.jpeg";
+import raw_elements_social_img from "../assets/images/work_images/small/raw-elements-social.jpeg";
 
-// works small images
-
-// blog post images
-import blog6 from "../assets/images/blog_images/6.jpg";
-import blog4 from "../assets/images/blog_images/4.jpg";
-import blog2 from "../assets/images/blog_images/2.jpg";
-import blog1 from "../assets/images/blog_images/1.jpg";
-import blog3 from "../assets/images/blog_images/3.jpg";
-import blog5 from "../assets/images/blog_images/5.jpg";
 // blog image small
-import blogSmall6 from "../assets/images/blog_images/small/6.jpg";
-import blogSmall4 from "../assets/images/blog_images/small/4.jpg";
-import blogSmall2 from "../assets/images/blog_images/small/2.jpg";
-import blogSmall1 from "../assets/images/blog_images/small/1.jpg";
-import blogSmall3 from "../assets/images/blog_images/small/3.jpg";
-import blogSmall5 from "../assets/images/blog_images/small/5.jpg";
+import android_apple_img from "../assets/images/blog_images/small/android-apple.jpeg";
+import functional_coffee_img from "../assets/images/blog_images/small/functional-coffee.jpeg";
+import hormones_img from "../assets/images/blog_images/small/hormones.jpeg";
+import mushroom_101_img from "../assets/images/blog_images/small/mushroom-101.jpeg";
+import retail_img from "../assets/images/blog_images/small/retail.jpeg";
+
 
 import img1 from "../assets/images/slider/1.png";
 import img2 from "../assets/images/slider/2.png";
@@ -47,7 +39,6 @@ import iconEmail from "../assets/images/contact/email 1.png";
 import iconMap from "../assets/images/contact/map 1.png";
 import { CgNotes } from "react-icons/cg";
 import { FaBlogger, FaRegUser, FaAward } from "react-icons/fa";
-import { AiOutlineHome } from "react-icons/ai";
 import { FiCodesandbox } from "react-icons/fi";
 import { RiContactsBookLine } from "react-icons/ri";
 import { Link, useLocation } from "react-router-dom";
@@ -210,6 +201,21 @@ const AllData = () => {
         "Campaign video created for April Fools - This generated a lot of engagement and had everyone LOL-ing!",
     },
     {
+      id: "11",
+      tag: "Graphic Design",
+      title: "Raw Elements Social Media",
+      img: raw_elements_social_img,
+      imgSmall: raw_elements_social_img,
+      vid: "" ,
+      bg: "#FFF1FB",
+      client: "Raw Elements",
+      tools: "Canva, Photoshop",
+      link: "https://rawelements.ca/",
+      linkText: "www.rawelements.ca",
+      description:
+        "Raw Elements is a wellness social media brand that helps people live their best lives. I worked with Raw Elements to help them create content that would inspire and motivate their audience. I wrote articles, created graphics, and developed strategies to help Raw Elements grow their online presence. My work with Raw Elements helped them reach a wider audience and continue to promote their message of living a healthy and balanced life.",
+    },
+    {
       id: "4",
       tag: "Content Creation",
       title: "Chaladz Design Promo",
@@ -292,66 +298,60 @@ const AllData = () => {
   const blogsData = [
     {
       id: "1",
-      img: blog1,
-      imgSmall: blogSmall1,
-      date: "177 April",
-      category: "Inspiration",
-      title: "How to Own Your Audience by Creating an Email List.",
-      bg: "#FCF4FF",
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",
-    },
-    {
-      id: "4",
-      img: blog4,
-      imgSmall: blogSmall4,
-      date: "000 April",
-      category: "Inspiration",
-      title: "Everything You Need to Know About Web Accessibility.",
+      img: mushroom_101_img,
+      imgSmall: mushroom_101_img,
+      date: "April 17, 2021",
+      category: "Life Style",
+      title: "Medicinal Mushrooms 101: Reishi, Chaga and Lionsmane… OH MY!",
+      link: "https://rawelements.ca/medicinal-mushrooms-101-reishi-chaga-and-lionsmane-oh-my/",
       bg: "#EEFBFF",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",
     },
     {
+      id: "4",
+      img: hormones_img,
+      imgSmall: hormones_img,
+      date: "January 24, 2021",
+      category: "Life Style",
+      title: "Hormones!",
+      link:"https://rawelements.ca/hormones/",
+      bg: "#EEFBFF",
+      description:
+        "You might think that you are the controller of how your body functions, but if you’ve ever witnessed a woman that’s just run out of ice cream lose their marbles and cry, laugh and then instantly lash out within the span of 5 minutes then you have experienced the power of hormones! These crazy mood swings can make even the worst of toddler temper tantrums seem like a breeze.",
+    },
+    {
       id: "2",
-      img: blog2,
-      imgSmall: blogSmall2,
-      date: "21 April",
-      category: "Web Design",
-      title: "The window know to say beside you",
+      img: android_apple_img,
+      imgSmall: android_apple_img,
+      date: "January 14, 2021",
+      category: "Technology",
+      title: "Android vs iPhone: Choosing the Right Phone for Your Needs",
+      link:"https://oslrs.com/wireless/android-vs-iphone-choosing-the-right-phone-for-your-needs/?cn-reloaded=1",
       bg: "#FFF0F0",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",
     },
     {
       id: "5",
-      img: blog5,
-      imgSmall: blogSmall5,
-      date: "27 April",
-      category: "Inspiration",
-      title: "Top 10 Toolkits for Deep Learning in 2021.",
-      bg: "#FCF4FF",
+      img: retail_img,
+      imgSmall: retail_img,
+      date: "December 27, 2019",
+      category: "Life Style",
+      title: "How Retail Jobs Can Change Your Life",
+      link:"https://oslrs.com/recruitment/how-retail-jobs-can-change-your-life/",
+      bg: "#EEFBFF",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",
     },
     {
       id: "3",
-      img: blog3,
-      imgSmall: blogSmall3,
-      date: "27 April",
-      category: "Inspiration",
-      title: "How to Own Your Audience by Creating an Email List.",
-      bg: "#FCF4FF",
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",
-    },
-    {
-      id: "6",
-      img: blog6,
-      imgSmall: blogSmall6,
-      date: "27 April",
-      category: "Inspiration",
-      title: "Everything You Need to Know About Web Accessibility.",
+      img: functional_coffee_img,
+      imgSmall: functional_coffee_img,
+      date: "February 14, 2022",
+      category: "Wellness",
+      title: "Regular Coffee vs Functional Coffee",
+      link:"https://us.foursigmatic.com/m/regular-coffee-vs-functional-coffee",
       bg: "#EEFBFF",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",

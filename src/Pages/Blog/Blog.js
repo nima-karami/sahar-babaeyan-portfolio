@@ -3,7 +3,7 @@ import CommonBlog from './CommonBlog';
 
 const Blog = () => {
     return (
-        <CommonBlog items={false} count={4} />
+        <CommonBlog items={false} count={5} />
     );
 };
 

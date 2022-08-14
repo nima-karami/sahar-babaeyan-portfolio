@@ -16,11 +16,11 @@ const Footer = ({ bg, condition }) => {
         © {new Date().getFullYear()} All Rights Reserved by{" "}
         <a
           className="hover:text-[#FA5252] duration-300 transition"
-          href="sahar-babaeyan.com"
+          href="nima-karami.github.io"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Sahar Babaeyan
+          Nima Karami
         </a>
         .
       </p>

@@ -135,7 +135,7 @@ const Home = () => {
             <HomeCard />
           </div>
           <div className="col-span-12 lg:col-span-8  ">
-            {/* header two  */}
+            {/* header  */}
 
             <Header />
             <Outlet />
