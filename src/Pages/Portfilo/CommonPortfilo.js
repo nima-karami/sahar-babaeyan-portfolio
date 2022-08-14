@@ -55,7 +55,7 @@ const CommonPortfilo = ({ condition, items }) => {
                 Portfolio
               </h2>
 
-              {/* Portfilo fillter tab start */}
+              {/* Portfilo filter tab start */}
 
               <ul
                 className={`${
@@ -88,7 +88,7 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
               </ul>
 
-              {/* Portfilo fillter tab start */}
+              {/* Portfilo filter tab start */}
             </div>
 
             {/* Portfolio items start */}
@@ -159,7 +159,7 @@ const CommonPortfilo = ({ condition, items }) => {
                         <FiCode className="text-lg mr-2 hidden sm:block " />
                         Tools :&nbsp;
                         <span className="font-medium ">
-                          {singleData?.langages}
+                          {singleData?.tools}
                         </span>
                       </p>
                     </div>

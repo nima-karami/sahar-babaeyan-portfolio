@@ -1,12 +1,12 @@
 import React from "react";
 import CommonPortfilo from "./CommonPortfilo";
 
-const PortfiloTwo = () => {
+const Portfolio = () => {
   return (
     <div>
-      <CommonPortfilo items={8} condition={false} />
+      <CommonPortfilo items={10} condition={false} />
     </div>
   );
 };
 
-export default PortfiloTwo;
+export default Portfolio;
