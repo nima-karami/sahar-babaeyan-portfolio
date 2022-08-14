@@ -12,8 +12,8 @@ const CommonContact = ({ condition }) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_t35daxx",
-        "template_jatihpp",
+        "service_xqh1a9k",
+        "template_bfjwzef",
         form.current,
         "-UWxAxiRk9HT4KD-S"
       )
