@@ -324,77 +324,36 @@ const AllData = () => {
         "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",
     },
   ];
-
-  // Menu items for Homepage One
+  // Menu items for Homepage
   const menuItem = [
     {
       id: "01",
-      name: "Home",
-      link: "/home/homePage",
-      icon: <AiOutlineHome />,
-    },
-    {
-      id: "02",
       name: "About",
-      link: "/home/about",
-      icon: <FaRegUser />,
-    },
-    {
-      id: "06",
-      name: "Resume",
-      link: "/home/resume",
-      icon: <CgNotes />,
-    },
-    {
-      id: "03",
-      name: "Works",
-      link: "/home/works",
-      icon: <FiCodesandbox />,
-    },
-    {
-      id: "04",
-      name: "Blogs",
-      link: "/home/blogs",
-      icon: <FaBlogger />,
-    },
-    {
-      id: "05",
-      name: "Contact",
-      link: "/home/contact",
-      icon: <RiContactsBookLine />,
-    },
-  ];
-
-  // Menu items for Homepage Two
-  const menuItemTwo = [
-    {
-      id: "01",
-      name: "About",
-      link: "/homeTwo/about",
+      link: "/about",
       icon: <FaRegUser />,
     },
     {
       id: "02",
       name: "Resume",
-      link: "/homeTwo/resume",
+      link: "/resume",
       icon: <CgNotes />,
     },
     {
       id: "03",
       name: "Works",
-      link: "/homeTwo/works",
+      link: "/works",
       icon: <FiCodesandbox />,
     },
     {
       id: "04",
       name: "Blogs",
-      link: "/homeTwo/blogs",
+      link: "/blogs",
       icon: <FaBlogger />,
     },
     {
       id: "05",
       name: "Contact",
-      link: "/homeTwo/contact",
+      link: "/contact",
       icon: <RiContactsBookLine />,
     },
   ];
@@ -579,7 +538,6 @@ const AllData = () => {
     handleBlogsData,
     menuItem,
     NavLink,
-    menuItemTwo,
     professionalTitlesArray,
     sliderImg,
     educationArray,

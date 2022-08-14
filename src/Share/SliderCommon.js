@@ -15,7 +15,7 @@ const SliderCommon = () => {
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     cssEase: "linear",
     responsive: [
       {
@@ -58,7 +58,7 @@ const SliderCommon = () => {
   return (
     <div className="bg-white dark:bg-[#1D1D1D] max-w-full h-auto   py-10 rounded-xl">
       <h3 className="text-center dark:text-white text-6xl mb-3 font-semibold ">Clients</h3>
-      <Slider {...settings} >
+      <Slider {...settings} className="overflow-hidden">
 
         {/* slider array */}
 

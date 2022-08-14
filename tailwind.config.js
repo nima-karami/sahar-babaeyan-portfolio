@@ -38,7 +38,6 @@ module.exports = {
       backgroundImage: {
         homeBg: "url('/src/assets/images/background/modern-bg.jpg')",
         "homeBg-dark": "url('/src/assets/images/background/bgtwo.jpg')",
-        "homeTwoBg-dark": "url('/src/assets/images/background/bgtwo.jpg')",
         previewBg: "url('/src/assets/images/preview/previewbg.png')",
       },
       colors: {
