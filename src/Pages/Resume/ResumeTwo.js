@@ -25,8 +25,8 @@ const ResumeTwo = () => {
                   <ResumeCard icon={educationArray.icon} type={educationArray.type} item={item} key={i} />
                 ))} */}
 
-                <ResumeCard arrayObject = {educationArray} local = {local} />
-                <ResumeCard arrayObject = {experienceArray} local = {local} />
+                <ResumeCard arrayObject = {educationArray} />
+                <ResumeCard arrayObject = {experienceArray} />
               </div>
             </div>
           </div>
