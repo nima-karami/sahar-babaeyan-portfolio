@@ -270,8 +270,8 @@ const AllData = () => {
       bg: "#f1fff5",
       client: "Lavido",
       tools: "Adobe Premiere",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      link: "https://www.lavido.com",
+      linkText: "www.lavido.com",
       description:
         "Campaign video created for online ads and promotions.",
     },
