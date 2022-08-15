@@ -88,7 +88,7 @@ const CommonBlog = ({ items, count }) => {
           {/* End .blog */}
 
           {/* Common Footer call here */}
-          <Footer condition={true} bg={"#F8FBFB"} />
+          <Footer condition={false} bg={"#FFFF"} />
         </div>
       </section>
     </>

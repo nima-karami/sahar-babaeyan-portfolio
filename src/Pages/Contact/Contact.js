@@ -15,7 +15,7 @@ const ContactTwo = () => {
           Contact
         </h2>
         <CommonContact condition={true} />
-        <Footer bg={"#F8FBFB"} />
+        <Footer condition={false} bg={"#FFFF"} />
       </div>
     </>
   );

@@ -7,7 +7,7 @@ import About from "./Pages/About/About";
 import Blog from "./Pages/Blog/Blog";
 import Contact from "./Pages/Contact/Contact";
 import Home from "./Pages/Home/Home";
-import Portfolio from "./Pages/Portfilo/Portfolio";
+import Portfolio from "./Pages/Portfolio/Portfolio";
 import Resume from "./Pages/Resume/Resume";
 import NotFound from "./Share/NotFound";
 

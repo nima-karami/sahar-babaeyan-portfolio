@@ -212,7 +212,7 @@ const CommonPortfilo = ({ condition, items }) => {
           {/* End Portfolio */}
 
           {/* Common Footer call here*/}
-          <Footer condition={true} bg={"#F8FBFB"} />
+          <Footer condition={false} bg={"#FFFF"} />
         </div>
       </section>
     </>
