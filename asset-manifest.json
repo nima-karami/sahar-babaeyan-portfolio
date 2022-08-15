@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6dd6739.css",
-    "main.js": "/static/js/main.2a635682.js",
+    "main.js": "/static/js/main.8373ce8b.js",
     "static/media/modern-bg.jpg": "/static/media/modern-bg.fbc79546c7b538bde4c0.jpg",
     "static/media/mushroom-101.jpeg": "/static/media/mushroom-101.a3d6625536dbc9de8558.jpeg",
     "static/media/5.png": "/static/media/5.5b8d47b8670ef005a096.png",
@@ -34,10 +34,10 @@
     "index.html": "/index.html",
     "static/media/shirt-solid.svg": "/static/media/shirt-solid.6d8c6557d9fae228c9676f12a0ec592d.svg",
     "main.e6dd6739.css.map": "/static/css/main.e6dd6739.css.map",
-    "main.2a635682.js.map": "/static/js/main.2a635682.js.map"
+    "main.8373ce8b.js.map": "/static/js/main.8373ce8b.js.map"
   },
   "entrypoints": [
     "static/css/main.e6dd6739.css",
-    "static/js/main.2a635682.js"
+    "static/js/main.8373ce8b.js"
   ]
 }
